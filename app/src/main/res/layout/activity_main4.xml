@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parkzan.badsore.Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView_35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:textSize="16dp"
+            android:text="กรุณาใส่Code ในผลิตภัณฑ์" />
+
+        <EditText
+            android:id="@+id/input_code"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20px"
+            android:inputType="textPersonName"
+            tools:text="Code" />
+
+        <Button
+            android:id="@+id/btn_inputCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:background="@color/colorPrimary"
+            android:text="OK"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:layout_marginTop="50dp"
+            android:text="สแกน QR Code" />
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="30px"
+            android:text="Scan now!"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

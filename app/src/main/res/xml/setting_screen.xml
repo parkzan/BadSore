@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <Preference
+            android:title="ProFile"
+            android:key="profile"
+            android:summary="Your ProFile Edit"   />
+        <Preference
+        android:title="Setting"
+        android:summary="Setting device" />
+        <SwitchPreference
+            android:title="Switch Notification"
+            android:summary="Switch On or Off"
+            android:defaultValue="true"/>
+        <Preference
+            android:title="Sound Notification"
+            android:summary="Change sound" />
+        <Preference
+        android:title="About"
+        android:summary="About Application" />
+
+</PreferenceScreen>
